@@ -4,10 +4,10 @@ public class Product{
 	
 	public static void main(String[] args) {
 		Person[] people = {
-			new Person("Mark", 18, 180.5, 78, "男"), 
-			new Person("Lily", 20, 168.4, 45, "女"),
-			new Person("Bob", 45, 170.2, 80, "Man"),
-			new Person("Kelly", 30, 162.8, 40, "Woman")			
+			new Person("Mark", "Pig", 18, 180.5, 78, "男"), 
+			new Person("Lily", "Dark", 20, 168.4, 45, "女"),
+			new Person("Bob", "Know", 45, 170.2, 80, "Man"),
+			new Person("Kelly", "Juice", 30, 162.8, 40, "Woman")			
 		};
 		
 		for (Person p : people) {
