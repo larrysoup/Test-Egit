@@ -1,6 +1,5 @@
 package com.ce;
 
-
 public class Product{
 	
 	public static void main(String[] args) {
@@ -18,8 +17,10 @@ public class Product{
 			System.out.println("身高: " + p.getHight());
 			System.out.println("體重: " + p.getWeight());
 			System.out.println("性別: " + p.getGender());
+			p.setSalary(10000);
 			System.out.println("===========================");
 		}
+		
 	}
 
 
