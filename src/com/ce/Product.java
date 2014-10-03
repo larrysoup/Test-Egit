@@ -1,6 +1,5 @@
 package com.ce;
 
-
 public class Product{
 	
 	public static void main(String[] args) {
