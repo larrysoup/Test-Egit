@@ -1,14 +1,15 @@
 package com.ce;
 
 public class Person {
-	private String name;
+	private String firstName;
+	private String lastName;
 	private int age;
 	private double hight;
 	private int weight;
 	private String gender;
 	
-	Person(String name, int age, double hight, int weight, String gender) {
-		this.name = name;
+	Person(String firstName, String lastName, int age, double hight, int weight, String gender) {
+		this.firstName = firstName;
 		this.age = age;
 		this.hight = hight;
 		this.weight = weight;
@@ -16,11 +17,22 @@ public class Person {
 	}
 	
 	public String getName() {
-		return name;
+		return firstName;
 	}
-	public void setName(String name) {
-		this.name = name;
+	public void setName(String firstName) {
+		this.firstName = firstName;
 	}
+	
+	
+	
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
 	public int getAge() {
 		return age;
 	}
