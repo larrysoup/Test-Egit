@@ -24,6 +24,9 @@ public class Product{
 		
 		pt.setId(50);
 		System.out.println(pt.getId());
+		pt.setId( pt.getId() + PI );
+		System.out.println(pt.getId());
+		
 	}
 
 
