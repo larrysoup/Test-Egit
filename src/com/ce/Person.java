@@ -7,7 +7,8 @@ public class Person {
 	private double hight;
 	private int weight;
 	private String gender;
-	
+	private double salary;
+
 	Person(String firstName, String lastName, int age, double hight, int weight, String gender) {
 		this.firstName = firstName;
 		this.lastName = lastName;
@@ -16,15 +17,15 @@ public class Person {
 		this.weight = weight;
 		this.gender = gender;
 	}
-	
-	public String getName() {
+
+	public String getFirstName() {
 		return firstName;
 	}
-	
-	public void setName(String firstName) {
+
+	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
-	
+
 	public String getLastName() {
 		return lastName;
 	}
@@ -36,27 +37,42 @@ public class Person {
 	public int getAge() {
 		return age;
 	}
+	
 	public void setAge(int age) {
 		this.age = age;
 	}
+	
 	public double getHight() {
 		return hight;
 	}
+	
 	public void setHight(double hight) {
 		this.hight = hight;
 	}
+	
 	public int getWeight() {
 		return weight;
 	}
+	
 	public void setWeight(int weight) {
 		this.weight = weight;
 	}
+	
 	public String getGender() {
 		return gender;
 	}
+	
 	public void setGender(String gender) {
 		this.gender = gender;
 	}
-	
+
+	public double getSalary() {
+		return salary;
+	}
+
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+
 	
 }

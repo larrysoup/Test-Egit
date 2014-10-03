@@ -11,13 +11,16 @@ public class Product{
 		};
 		
 		for (Person p : people) {
-			System.out.println("姓名: " + p.getName());
+			System.out.println("FirstName: " + p.getFirstName());
+			System.out.println("LastName: " + p.getLastName());
 			System.out.println("年齡: " + p.getAge());
 			System.out.println("身高: " + p.getHight());
 			System.out.println("體重: " + p.getWeight());
 			System.out.println("性別: " + p.getGender());
+			p.setSalary(10000);
 			System.out.println("===========================");
 		}
+		
 	}
 
 
