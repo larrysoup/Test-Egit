@@ -18,6 +18,7 @@ public class Product{
 			System.out.println("體重: " + p.getWeight());
 			System.out.println("性別: " + p.getGender());
 			p.setSalary(10000);
+			System.out.println("555");
 			System.out.println("===========================");
 		}
 		
