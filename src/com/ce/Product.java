@@ -20,6 +20,7 @@ public class Product{
 			p.setSalary(10000);
 			System.out.println("555");
 			System.out.println("===========================");
+			System.out.println("===========================");
 		}
 		
 	}
